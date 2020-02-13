@@ -50,7 +50,7 @@ end
 def run(my_songs)
   
   input = prompt()
-  help()
+  
   while input != "exit"
     if input == "list"
       list(my_songs)
