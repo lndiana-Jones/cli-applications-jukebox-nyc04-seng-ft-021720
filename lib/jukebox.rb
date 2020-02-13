@@ -46,6 +46,7 @@ def prompt()
   gets.chomp()
 end
 
+
 def run(my_songs)
   
   input = prompt()
@@ -66,6 +67,5 @@ def run(my_songs)
       input = prompt()
     end
   end
-  
   exit_jukebox()
 end
